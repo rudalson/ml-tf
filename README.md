@@ -4,5 +4,5 @@
 
 ## Environment
 
-* python 3.7.6
-* tensorflow 1.14.0
+* python 3.7.6, 3.7.7
+* tensorflow 2.1.0 ~ 1.14.0

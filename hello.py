@@ -1,5 +1,5 @@
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
-with tf.compat.v1.Session() as sess:
+with tf.Session() as sess:
     hello = tf.constant("Hello World!")
     print(sess.run(hello))

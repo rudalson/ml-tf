@@ -1,6 +1,5 @@
 import tensorflow.compat.v1 as tf
-
-# tf.disable_v2_behavior()
+tf.disable_v2_behavior()
 
 xData = [1, 2, 3, 4, 5, 6, 7]
 yData = [25000, 55000, 75000, 110000, 128000, 155000, 180000]
